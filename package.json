@@ -1,17 +1,19 @@
 {
   "name": "portfolio-express",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST para portfolio pessoal com Express + PostgreSQL",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "postinstall": "prisma generate"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/victoriaUNI/portfolio-express.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "victoriaUNI",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/victoriaUNI/portfolio-express/issues"
@@ -27,5 +29,8 @@
   "devDependencies": {
     "nodemon": "^3.1.10",
     "prisma": "^6.9.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
