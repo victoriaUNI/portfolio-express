@@ -1,36 +1,15 @@
 {
-  "name": "portfolio-express",
+  "name": "portfolio-vercel",
   "version": "1.0.0",
-  "description": "API REST para portfolio pessoal com Express + PostgreSQL",
-  "main": "src/server.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
+    "dev": "vercel dev",
     "postinstall": "prisma generate"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/victoriaUNI/portfolio-express.git"
-  },
-  "keywords": [],
-  "author": "victoriaUNI",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/victoriaUNI/portfolio-express/issues"
-  },
-  "homepage": "https://github.com/victoriaUNI/portfolio-express#readme",
   "dependencies": {
-    "@prisma/client": "^6.9.0",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "helmet": "^8.1.0"
+    "@prisma/client": "^6.9.0"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10",
     "prisma": "^6.9.0"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
