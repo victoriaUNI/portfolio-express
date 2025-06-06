@@ -2,6 +2,16 @@
 
 API REST para portfólio/currículo usando Express, hospedada no Vercel com banco de dados PostgreSQL no Render.
 
+
+## LINK DO VIDEO
+
+https://youtu.be/YbOCK-xchyQ
+
+
+## LINK DO VERCEL
+
+https://portfolio-express-npag0bvex-victoriaunis-projects.vercel.app/api/users
+
 ## Configuração
 
 1. Clone o repositório
