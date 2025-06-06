@@ -1,0 +1,30 @@
+# Portfolio Express API
+
+API REST para portfólio/currículo usando Express, hospedada no Vercel com banco de dados PostgreSQL no Render.
+
+## Configuração
+
+1. Clone o repositório
+2. Execute `npm install`
+3. Crie um arquivo `.env` baseado no `.env.example`
+4. Execute `npm run dev` para desenvolvimento ou `npm start` para produção
+
+## Endpoints
+
+- `GET /` - Health check
+- `POST /api/users` - Criar novo usuário
+- `GET /api/users` - Listar todos os usuários
+- `GET /api/users/:id` - Obter usuário por ID
+- `PUT /api/users/:id` - Atualizar usuário
+- `DELETE /api/users/:id` - Deletar usuário
+
+## Modelo de Usuário
+
+```json
+{
+  "nome": "string",
+  "bio": "string",
+  "email": "string",
+  "github": "string",
+  "linkedin": "string"
+}
